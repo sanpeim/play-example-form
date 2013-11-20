@@ -13,7 +13,7 @@ import views.html.index;
 
 /**
  * The controller for the single page of this application.
- *
+ * 
  * @author Philip Johnson
  */
 public class Application extends Controller {
