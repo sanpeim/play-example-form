@@ -1,7 +1,17 @@
 Overview
 ========
 
-![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/play-example-form-homepage.png)
+![screenshot](https://raw.github.com/sanpeim/play-example-form/master/doc/play-example-form-homepage.png)
+
+ER Design
+------------
+My design has a student entity connected to a hobby, gpa, major and level entity connected to it.
+I assume that the list of students always has at least one student.
+I assume that each student has 0 or more hobbies, at least 1 major, and only one gpa and level associated.
+Each of the entities student, hobby, gpa, major and level has an option to add a new or delete an existing one.
+
+![screenshot](https://raw.github.com/sanpeim/play-example-form/master/doc/play-example-form-er.png)
+
 
 This application provides an example of form processing with the following features:
 
