@@ -5,10 +5,10 @@ Overview
 
 ER Design
 ------------ 
-My design has a student entity connected to a hobby, gpa, major and level entity connected to it.
+My design has a list connected to a student entity which is connected to a hobby, gpa, major and level entity connected to it.
 I assume that the list of students always has at least one student.
-I assume that each student has 0 or more hobbies, at least 1 major, and only one gpa and level associated.
-Each of the entities student, hobby, gpa, major and level has an option to add a new or delete an existing one.
+I assume that each student has zero or more hobbies, at least one major, and only one gpa and level associated.
+Each of the entities: student, hobby, gpa, major and level has an option to add a new or delete an existing one.
 
 ![screenshot](https://raw.github.com/sanpeim/play-example-form/master/doc/play-example-form-er.png)
 
